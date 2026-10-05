@@ -39,7 +39,7 @@ function request(url, options = {}) {
   });
 }
 
-const result = await request('https://example.com');
+const result = await request('https://example.net');
 
 console.log(result.statusCode);
 console.log(result.body);
